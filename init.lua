@@ -17,5 +17,6 @@ local opts = {}
 
 require("vim-options")
 require("lazy").setup("plugins")
+require("telescope").load_extension("noice")
 
 vim.keymap.set('n','<C-n>', ':Neotree filesystem reveal left<CR>',{})
