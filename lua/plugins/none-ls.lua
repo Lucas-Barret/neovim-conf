@@ -8,6 +8,8 @@ return {
 				null_ls.builtins.formatting.stylua,
         null_ls.builtins.formatting.rubocop,
         null_ls.builtins.diagnostics.rubocop,
+        null_ls.builtins.formatting.tsserver,
+        null_ls.builtins.diagnostics.tsserver
 			}
 		})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
