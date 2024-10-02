@@ -21,3 +21,9 @@ require("telescope").load_extension("noice")
 
 vim.keymap.set('n','<C-n>', ':Neotree filesystem reveal left<CR>',{})
 vim.keymap.set('n','<leader>hw', ':HopWord<CR>',{})
+
+vim.keymap.set('n','<leader>+','<C-a>',{})
+vim.keymap.set('n','<leader>-','<C-x>',{})
+
+vim.keymap.set('n','<leader>sv','<C-w>v',{ desc = 'Splitting vertically' })
+vim.keymap.set('n','<leader>sh','<C-w>s',{ desc = 'Splitting horiztontally' })
